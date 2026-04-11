@@ -1,4 +1,4 @@
-class LL1 {
+class LL {
         Node head;
         static class Node{
                 int data;
@@ -44,7 +44,7 @@ class LL1 {
         }
 
         public static void main(String[] args) {
-                LL1 List=new LL1();
+                LL List=new LL();
                 Node first=new Node(1);
                 Node second=new Node(3);
                 Node third=new Node(5);
