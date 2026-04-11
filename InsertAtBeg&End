@@ -61,8 +61,6 @@ class LL{
         List.InsertAtEnd(11);
         List.PrintList();
         //My info
-        System.out.println("Name: Syed Muhammad Ali Usman");
-        System.out.println("Seat number: EB25210006095");
-        System.out.println("Section A");
+        System.out.println("\nName: Syed Muhammad Ali Usman\n"+"Seat number: EB25210006095\n"+"Section A");
     }
 }
