@@ -48,14 +48,19 @@ class LL{
     }
     public static void main(String[] args) {
         LL List=new LL();
+        List.InsertAtBeg(7);
+        List.InsertAtBeg(5);
+        List.PrintList();
+        System.out.println("\tInsertion At Begining");
         List.InsertAtBeg(3);
         List.InsertAtBeg(1);
         List.PrintList();
 
-        List.InsertAtEnd(5);
-        List.InsertAtEnd(7);
+        System.out.println("\tInsertion At End");
+        List.InsertAtEnd(9);
+        List.InsertAtEnd(11);
         List.PrintList();
-    //My info
+        //My info
         System.out.println("Name: Syed Muhammad Ali Usman");
         System.out.println("Seat number: EB25210006095");
         System.out.println("Section A");
