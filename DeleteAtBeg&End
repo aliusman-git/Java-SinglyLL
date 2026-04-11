@@ -1,4 +1,4 @@
-class LL {
+class LL1 {
         Node head;
         static class Node{
                 int data;
@@ -35,16 +35,20 @@ class LL {
                 }
         }
         public void printList() {
-                Node temp = head;
-                while(temp != null  ){
-                        System.out.print(temp.data + " -> ");
-                        temp = temp.next;
+                if (head==null){
+                        System.out.println("list is empty");
+                        return;
+                }
+                Node crrNode = head;
+                while(crrNode != null  ){
+                        System.out.print(crrNode.data + " -> ");
+                        crrNode = crrNode.next;
                 }
                 System.out.println("null");
         }
 
         public static void main(String[] args) {
-                LL List=new LL();
+                LL1 List=new LL1();
                 Node first=new Node(1);
                 Node second=new Node(3);
                 Node third=new Node(5);
