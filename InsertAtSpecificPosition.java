@@ -17,7 +17,7 @@ public class LL {
         }
         Node current=head;
         int count=1;
-        while (count>position-1){
+        while (count<position-1){
             current=current.next;
             count++;
         }
